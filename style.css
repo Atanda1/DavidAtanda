@@ -1,0 +1,345 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: flex-end;
+  padding: 60px 100px;
+}
+
+.navs {
+  font-weight: bold;
+  font-size: 10px;
+}
+nav > a {
+  margin-right: auto;
+  font-weight: 500px;
+  font-size: 20px;
+}
+
+ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+li a:hover {
+  color: #5d5e60;
+}
+
+header {
+  background-image: url("img/beach.jpg");
+  height: 100vh;
+}
+
+.Portfolio {
+  margin-top: 9%;
+  text-align: center;
+  color: white;
+}
+.Portfolio h1 {
+  font-size: 300%;
+}
+h1,
+p,
+button {
+  margin-top: 20px;
+}
+.cta {
+  padding: 15px 60px;
+  color: white;
+  font-size: 18px;
+  background-color: #5d5e60;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.cta:hover {
+  background-color: #36413e;
+  transition: all 0.3s ease 0s;
+}
+
+.container {
+  display: flex;
+  height: auto;
+}
+
+
+.box1 {
+  width: 50vw;
+  padding: 70px 80px 50px 70px;
+}
+.box1 p {
+  line-height: 30px;
+}
+.box2 img {
+  width: 50vw;
+  height: 500px;
+  
+}
+
+.quote {
+  text-align: center;
+  padding: 0px 300px;
+  line-height: 30px;
+  background-color: #d7d6d6;
+}
+.quote h1 {
+  margin-top: -4px;
+  padding: 50px 0px 0px 0px;
+}
+.quote p {
+  font-style: italic;
+  padding-bottom: 50px;
+}
+.cards-1,
+.cards-2 {
+  display: flex;
+  text-align: center;
+  background-color: #d7d6d6;
+  padding: 0px 140px 0px 140px;
+  line-height: 25px;
+  height: 450px;
+}
+.icon,
+.icon img {
+  width: 80px;
+  margin: 27px 0px 10px 63px;
+}
+.cards-1 .title,
+.cards-2 .title {
+  font-weight: bold;
+}
+.cards-1 .text,
+.cards-2 .text {
+  color: #5d5e60;
+}
+.card-individual {
+  height: 25vw;
+  width: 25vw;
+  margin: 15px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(235, 219, 219, 0.2),
+    0 4px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.card-individual:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.3s ease 0s;
+}
+
+.image-here {
+  background-image: url(./img/beach.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+
+}
+.featured-project {
+  text-align: center;
+  padding: 0px 200px 0px 200px;
+  background-color: #d7d6d6;
+}
+.featured-project h1 {
+  margin-top: -4px;
+  padding-top: 80px;
+}
+.featured-project p {
+  line-height: 25px;
+  padding-bottom: 80px;
+}
+.project1,
+.project2,
+.project3 {
+  display: flex;
+}
+
+.project2 {
+  flex-direction: row-reverse;
+}
+.duck img {
+  margin-top: -4px;
+  width: 48.7vw;
+  height: 500px;
+}
+.tic img {
+  margin-top: -4px;
+  margin-bottom: -4px;
+}
+#footer {
+  display: flex;
+  background-color: #36413e;
+  color: white;
+  font-size: 18px;
+  line-height: 5px;
+}
+#footer nav {
+  margin: auto;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 700px) {
+  nav {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0%;
+  }
+
+  
+  
+  header {
+    background-image: url("img/beach.jpg");
+    height: auto;
+  }
+  
+  .Portfolio {
+    margin-top: 0%;
+    font-size: 30px;
+    text-align: center;
+  
+  }
+  .Portfolio h1 {
+    font-size: 30%;
+  }
+  .Portfolio p {
+    font-size: 20%;
+  }
+  h1,
+  p,
+  button {
+    margin-top: 5px;
+  }
+  .cta {
+    padding: 5px 6px;
+    color: white;
+    font-size: 8px;
+    background-color: #5d5e60;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  
+  .box1 {
+    width: 100%;
+    padding: 70px 80px 50px 70px;
+  }
+  
+  .box2 img {
+    width:100%;
+    height: 300px;
+    
+  }
+  
+  .quote {
+    text-align: center;
+    padding: 0px;
+    line-height:16px;
+    background-color: #d7d6d6;
+
+  }
+  .quote h1 {
+    margin-top: -4px;
+    padding: 50px 0px 0px 0px;
+  }
+  .quote p {
+    font-style: italic;
+    padding-bottom: 50px;
+  }
+  .cards-1,
+  .cards-2 {
+    display: flex;
+    text-align: center;
+    background-color: #d7d6d6;
+    padding: 0px 140px 0px 140px;
+    line-height: 15px;
+    height:300px;
+    width: 100%
+  }
+  .icon,
+  .icon img {
+    width: 80px;
+    margin: 27px 0px 10px 63px;
+  }
+  .cards-1 .title,
+  .cards-2 .title {
+    font-weight: bold;
+  }
+  .cards-1 .text,
+  .cards-2 .text {
+    color: #5d5e60;
+  }
+  .card-individual {
+    height: auto;
+    width: 100%;
+    margin: 13px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(235, 219, 219, 0.2),
+      0 4px 10px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  
+  .image-here {
+    background-image: url(./img/beach.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+  
+  }
+  .featured-project {
+    text-align: center;
+    padding: 0px 200px 0px 200px;
+    background-color: #d7d6d6;
+  }
+  .featured-project h1 {
+    margin-top: -4px;
+    padding-top: 80px;
+  }
+  .featured-project p {
+    line-height: 25px;
+    padding-bottom: 80px;
+  }
+  .project1,
+  .project2,
+  .project3 {
+    display: flex;
+  }
+  
+  .project2 {
+    flex-direction: row-reverse;
+  }
+  .duck img {
+    margin-top: -4px;
+    width: 100%;
+    height: auto;
+  }
+  .tic img {
+    margin-top: -4px;
+    margin-bottom: -4px;
+  }
+  #footer {
+    display: flex;
+    background-color: #36413e;
+    color: white;
+    font-size: 18px;
+    line-height: 5px;
+    height: 30px;
+  }
+  #footer nav {
+    margin: auto;
+    text-transform: capitalize;
+    font-weight: 400;
+  }
+  
+
+a {
+  color: #f5f5f6;
+  text-decoration: none;
